@@ -1,1 +1,21 @@
+.head{
+    padding: 10px;
+    background-color: #5C2946 ;
 
+   color: white;
+   height: 100px;
+   margin-top: -7px;
+   margin-left: -10PX;
+}
+
+.menu{
+}
+.a{
+    justify-content: space-evenly;
+    margin: 120px;
+   font-size: 30px;
+   color: white;
+}
+body{
+    background-color: bisque;
+}
