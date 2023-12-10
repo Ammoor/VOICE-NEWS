@@ -1,34 +1,106 @@
-.head{
-    padding: 10px;
-    background-color: #5C2946 ;
-
-   color: white;
-   height: 100px;
-   margin-top: -7px;
-   margin-left: -10PX;
+body {
+  background-color: #5c2946;
+  color: #382F34;
+  font-size: 50px;
 }
-
-.menu{
+hr {
+  color: black;
+  position: relative;
+  bottom: 45px;
+  width: 85%;
 }
-.a{
-    justify-content: space-evenly;
-    margin: 120px;
-   font-size: 30px;
-   color: white;
-   
+.body {
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 35px;
+  margin-bottom: 80px;
+  margin-left: 20px;
 }
-body{
-    background-color: peachpuff;
+.header {
+    width: fit-content;
+    margin: auto;
 }
-.img2{
-    width: 343px;
- 
-
+.logo-header {
+  width: 200px;
+  border-radius: 70px;
 }
-.menu{
-display: flex;
+.logo-body {
+  width: 430px;
 }
-.atitle{
-margin: 10px;
-color: rgb(4, 4, 4);
+.the-main-title-of-the-website1 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  bottom: 90px;
+}
+.the-main-title-of-the-website2 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  right: 319px;
+  bottom: 25px;
+}
+.web-site-logo-in-the-body {
+  width: 75%;
+  margin: auto;
+}
+.the-main-title-of-the-website1-body {
+  position: relative;
+  bottom: 100px;
+  left: 150px;
+  font-weight: bold;
+}
+.the-main-title-of-the-website2-body {
+  position: relative;
+  bottom: 152px;
+  left: 150px;
+  font-weight: bold;
+}
+.short-description-of-the-website {
+  position: relative;
+  bottom: 95px;
+  left: 150px;
+}
+.header-of-the-news {
+  position: relative;
+  display: inline-block;
+  left: 540px;
+  bottom: 95px;
+  color: #BF4242;
+}
+.Sherine-Abu-Aqla {
+  width: 1000px;
+  position: relative;
+  left: 475px;
+  bottom: 90px;
+}
+.hamas {
+  width: 1000px;
+  position: relative;
+  left: 1540px;
+  bottom: 950px;
+}
+.blood-brothers {
+  width: 1000px;
+  position: relative;
+  left: 2587px;
+  bottom: 1610px;
+}
+.childrens {
+  width: 1000px;
+  position: relative;
+  left: 3637px;
+  bottom: 2301px;
+}
+.description-of-the-article {
+  display: block;
+  color: #5c2946;
+  text-decoration: none;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 10px;
+}
+.description-of-the-article:hover {
+  color:#BF4242;
+  text-decoration: underline;
 }
