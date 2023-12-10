@@ -1,21 +1,110 @@
-.head{
-    padding: 10px;
-    background-color: #5C2946 ;
-
-   color: white;
-   height: 100px;
-   margin-top: -7px;
-   margin-left: -10PX;
+body {
+    background-color: peachpuff;
 }
 
-.menu{
+.head {
+    margin: 10px;
+    background-color: #5C2946;
+    color: white;
+    height: 130px;
 }
-.a{
-    justify-content: space-evenly;
-    margin: 120px;
-   font-size: 30px;
-   color: white;
+
+.head .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-body{
-    background-color: bisque;
+
+.head .container h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.head .links {
+    position: relative;
+}
+
+.head .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
+
+.head .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.head .links .icon span {
+    background-color: white;
+    margin-bottom: 5px;
+    height: 2px;
+}
+
+.head .links .icon span:first-child {
+    width: 100%;
+}
+
+.head .links .icon span:nth-child(2) {
+    width: 60%;
+    transition: 0.3s;
+}
+
+.head .links .icon span:last-child {
+    width: 100%;
+}
+
+.head .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6a5;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: 30px;
+    display: none;
+}
+
+.head .links:hover ul {
+    display: block;
+}
+
+.head .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6b1 transparent;
+    position: absolute;
+    right: 4px;
+    top: -19.5px;
+}
+
+.head .links ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.head .links ul li a:hover {
+    padding-left: 25px;
+}
+
+.head .links ul li:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu {
+    display: flex;
+}
+
+.atitle {
+    margin: 10px;
+    color: rgb(4, 4, 4);
 }
