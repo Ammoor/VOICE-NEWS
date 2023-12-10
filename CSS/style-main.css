@@ -15,7 +15,20 @@
     margin: 120px;
    font-size: 30px;
    color: white;
+   
 }
 body{
-    background-color: bisque;
+    background-color: peachpuff;
+}
+.img2{
+    width: 343px;
+ 
+
+}
+.menu{
+display: flex;
+}
+.atitle{
+margin: 10px;
+color: rgb(4, 4, 4);
 }
