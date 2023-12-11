@@ -41,10 +41,9 @@ body {
     left: 4500px;
 }
 .short-video-about-sherine-story {
-    width: fit-content;
+    text-align: center;
     position: relative;
-    bottom:2400px;
-    left: 4525px;
+    bottom: 835px;
 }
 .the-main-title-of-article {
     text-align: center;
