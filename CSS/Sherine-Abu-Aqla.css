@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 img {
-  height: 564px;
+  width: 75%;
 }
 .sub-articles {
   line-height: 1.3;
@@ -26,10 +26,6 @@ img {
 .titles-of-sub-articles {
   display: inline-block;
   margin-left: 20px;
-}
-.videos {
-  text-align: center;
-  margin-bottom: 25px;
 }
 /* End body style */
 /* Start Global Rules */
@@ -141,7 +137,7 @@ header nav .links li a:hover {
   color: antiquewhite;
   transition: 0.3s ease;
 }
-/* end header */
+/* End header */
 /* Start Footer */
 .footer {
   background-color: #191919;
