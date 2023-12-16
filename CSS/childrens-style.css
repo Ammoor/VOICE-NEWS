@@ -123,14 +123,14 @@ header nav .links li::after {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background-color: white;
+  background-color: #05f7ff;
   transition: 0.3s;
 }
 header nav .links li:hover::after {
   width: 100%;
 }
 header nav .links li a {
-  color: white;
+  color: #05f7ff;
   font-size: 17px;
 }
 header nav .links li a:hover {
