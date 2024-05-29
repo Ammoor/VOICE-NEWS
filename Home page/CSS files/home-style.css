@@ -1,0 +1,449 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #2196f3;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #eaeafc;
+}
+.header {
+  width: fit-content;
+  margin: auto;
+}
+.logo-header {
+  width: 100px;
+  border-radius: 70px;
+}
+/* Start header */
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #909090;
+  z-index: 999;
+  background-attachment: scroll;
+}
+header nav {
+  display: flex;
+  justify-content: space-between; /* horizontal */
+  align-items: center; /*vertical*/
+  width: 90%;
+  margin: auto;
+  height: 80px;
+}
+header nav .logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-right: 20px;
+}
+header nav .logo span {
+  color: #05f7ff;
+}
+header nav .links {
+  display: flex;
+}
+header nav .links li {
+  position: relative;
+  margin: 0 30px;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+}
+header nav .links li::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #05f7ff;
+  transition: 0.3s;
+}
+header nav .links li:hover::after {
+  width: 100%;
+}
+header nav .links li a {
+  color: #05f7ff;
+  font-size: 17px;
+}
+header nav .links li a:hover {
+  color: rgb(246, 246, 246);
+  transition: 0.3s ease;
+}
+/* end header */
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  background-image: url(https://img.freepik.com/free-photo/black-lives-matter-movement-copy-space_23-2148913818.jpg?w=1380&t=st=1702541551~exp=1702542151~hmac=10f29ce51e9598b3b8b62e384e14b62b84d10e2fb3a4e98b9253a1542a3d2c1b);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.main p {
+  font-weight: 600;
+  font-size: 25px;
+}
+.main span {
+  color: crimson;
+}
+.main a {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  transition: ease 0.7s;
+  border: 0.16em solid rgb(255, 255, 255);
+}
+.main a:hover {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+.latest {
+  padding-block: 20px;
+  margin-top: 20px;
+}
+.latest h2 {
+  text-align: center;
+  margin: 30px 0px;
+}
+.latest .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: start;
+  row-gap: 20px;
+}
+.latest .card {
+  width: 360px;
+  min-height: 300px;
+  box-shadow: 0 0 4px #a0c1dc;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px 0;
+  transition: 0.2s ease;
+}
+.latest .card-content {
+  margin: 10px 11px;
+}
+.latest .card-content {
+  font-size: 22px;
+  font-weight: 600;
+}
+.latest .card-content h1 {
+  text-align: left;
+}
+.latest .card:hover {
+  box-shadow: 1px 1px 8px #3c6060;
+  background-color: #547b7b;
+  transform: translateY(-2px);
+}
+/* body */
+.focus {
+  padding-block: 20px;
+  margin-top: 20px;
+  background-color: #3c6060;
+}
+.focus h2 {
+  text-align: center;
+  margin: 30px 0px;
+}
+.focus .containerr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: start;
+  row-gap: 20px;
+}
+.focus .cards {
+  width: 360px;
+  min-height: 300px;
+  box-shadow: 0 0 4px #a0a0a033;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px 0;
+  transition: 0.2s ease;
+  overflow: hidden;
+}
+.focus .cards-content {
+  margin: 10px 11px;
+}
+.focus .cards-content p {
+  font-size: 22px;
+  font-weight: 400;
+}
+.focus .cards:hover {
+  box-shadow: 1px 1px 8px #062424;
+  transform: translateY(-2px);
+}
+/* posts */
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.info {
+  background-color: #eaeafc;
+}
+.info {
+  width: 90%;
+  margin: 30px auto 30px;
+}
+.info .main-info {
+  width: 70%;
+  float: left;
+}
+.info .main-info .post {
+  margin: 20px;
+}
+.info .main-info .p img {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.info .main-info .p {
+  width: 95%;
+  height: 270px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: white;
+}
+.info .main-info .p .post-content {
+  padding: 10px;
+  width: 60%;
+  float: right;
+}
+/* sidebar */
+.info .sidbar {
+  width: 30%;
+  float: left;
+  height: 300px;
+}
+.info .sidbar .section {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.info .sidbar .section.search {
+  margin-top: 71px;
+}
+.sidbar .section.search form .text-input {
+  padding: 0.7rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  color: #444;
+  border: 1px solid #444;
+  font-size: 1.2em;
+}
+.info .sidbar .section.topics ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-top: 1px solid #d6d5d5;
+}
+.info .sidbar .section.topics ul a {
+  display: block;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid #444;
+  color: #000000;
+  font-size: 1.1em;
+  transition: all 0.3s;
+}
+.info .sidbar .section.topics ul a:hover {
+  padding-left: 10px;
+  transition: all 0.3s;
+  color: crimson;
+}
+.info .sidbar .section-title {
+  margin: 10px 0;
+}
+/* Start Footer */
+.footer {
+  background-color: #191919;
+  padding: 70px 0 0;
+}
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 100px;
+}
+.footer .box h3 {
+  color: white;
+  font-size: 50px;
+  margin: 0 0 20px -10px;
+}
+.footer .box .social {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .footer .box .social {
+    justify-content: center;
+  }
+}
+.footer .box .social li {
+  margin-right: 10px;
+}
+.footer .box .social li a {
+  background-color: #313131;
+  color: #b9b9b9;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition: var(--main-transition);
+}
+.footer .box .social .facebook:hover {
+  background-color: #1877f2;
+}
+.footer .box .social .twitter:hover {
+  background-color: #1da1f2;
+}
+.footer .box .social .youtube:hover {
+  background-color: #ff0000;
+}
+.footer .box .text {
+  margin-top: 30px;
+  margin-left: 20px;
+  line-height: 1.6;
+  color: #b9b9b9;
+}
+.footer .box .text .names {
+  list-style: outside;
+}
+.footer .box .links li {
+  padding: 15px 0;
+  transition: var(--main-transition);
+}
+.footer .box .links li:not(:last-child) {
+  border-bottom: 1px solid #444;
+}
+.footer .box .links li:hover {
+  padding-left: 10px;
+}
+.footer .box .links li:hover a {
+  color: white;
+}
+.footer .box .links li a {
+  color: #b9b9b9;
+  transition: var(--main-transition);
+}
+.footer .box .links li a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\F101";
+  font-weight: 900;
+  margin-right: 10px;
+  color: var(--main-color);
+}
+.footer .box .line {
+  display: flex;
+  align-items: center;
+  color: #b9b9b9;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .footer .box .line {
+    flex-direction: column;
+  }
+}
+.footer .box .line i {
+  font-size: 25px;
+  color: var(--main-color);
+  margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .footer .box .line i {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+.footer .box .line .team-info {
+  line-height: 1.7;
+  flex: 1;
+}
+.footer .box .line .info span {
+  display: block;
+}
+.footer .copyright {
+  padding: 25px 0;
+  text-align: center;
+  color: white;
+  margin: 50px 0 0;
+  border-top: 1px solid #444;
+}
+/* End Footer */
