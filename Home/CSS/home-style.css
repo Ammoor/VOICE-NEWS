@@ -56,7 +56,11 @@ ul {
   text-decoration: none;
 }
 body {
+  background-color: #5c2946;
+}
+.body {
   background-color: #eaeafc;
+  margin: 81px 10px 15px 10px;
 }
 .header {
   width: fit-content;
@@ -127,12 +131,21 @@ header nav .links li a:hover {
   transition: 0.3s ease;
 }
 /* end header */
+.Home-entry {
+  margin-bottom: 180px;
+  margin-left: 5px;
+}
+.Home-entry h2,
+.Home-entry p,
+.Home-entry a {
+  margin: 18px;
+}
 .main {
   height: 100vh;
   display: flex;
   align-items: center;
   padding: 0px 100px;
-  background-image: url(https://img.freepik.com/free-photo/black-lives-matter-movement-copy-space_23-2148913818.jpg?w=1380&t=st=1702541551~exp=1702542151~hmac=10f29ce51e9598b3b8b62e384e14b62b84d10e2fb3a4e98b9253a1542a3d2c1b);
+  background-image: url("../Photos/black-lives-matter-movement-copy-space.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -186,7 +199,7 @@ header nav .links li a:hover {
   overflow: hidden;
   background-color: #fff;
   margin: 20px 0;
-  transition: 0.2s ease;
+  transition: 0.4s ease;
 }
 .latest .card-content {
   margin: 10px 11px;
@@ -212,6 +225,7 @@ header nav .links li a:hover {
 .focus h2 {
   text-align: center;
   margin: 30px 0px;
+  color: crimson;
 }
 .focus .containerr {
   display: flex;
@@ -224,11 +238,11 @@ header nav .links li a:hover {
   width: 360px;
   min-height: 300px;
   box-shadow: 0 0 4px #a0a0a033;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 5px;
   background-color: white;
   margin: 20px 0;
-  transition: 0.2s ease;
+  transition: 0.4s ease;
   overflow: hidden;
 }
 .focus .cards-content {
@@ -236,11 +250,13 @@ header nav .links li a:hover {
 }
 .focus .cards-content h3 {
   font-size: 23px;
+  color: #191919;
 }
 .focus .cards-content p {
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 550;
   margin-top: 10px;
+  color: #5c2946;
 }
 .focus .cards:hover {
   box-shadow: 1px 1px 8px #062424;
@@ -265,6 +281,7 @@ header nav .links li a:hover {
 }
 .info .main-info .post {
   margin: 20px;
+  color: #191919;
 }
 .info .main-info .p img {
   width: 40%;
@@ -276,16 +293,26 @@ header nav .links li a:hover {
   height: 270px;
   margin: 20px auto;
   border-radius: 5px;
+  border: 1px solid black;
   background-color: white;
+  transition: 0.4s;
 }
 .info .main-info .p .post-content {
   font-size: 19px;
   padding: 10px;
   width: 60%;
   float: right;
+  color: #191919;
 }
 .info .main-info .p .post-content p {
   margin-top: 25px;
+  color: #5c2946;
+  font-weight: 550;
+}
+.info .main-info .p:hover {
+  box-shadow: 1px 1px 8px #3c6060;
+  background-color: #547b7b;
+  transform: translateX(2px);
 }
 /* sidebar */
 .info .sidbar {
