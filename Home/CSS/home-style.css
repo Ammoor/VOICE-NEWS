@@ -234,9 +234,13 @@ header nav .links li a:hover {
 .focus .cards-content {
   margin: 10px 11px;
 }
+.focus .cards-content h3 {
+  font-size: 23px;
+}
 .focus .cards-content p {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 400;
+  margin-top: 10px;
 }
 .focus .cards:hover {
   box-shadow: 1px 1px 8px #062424;
@@ -275,9 +279,13 @@ header nav .links li a:hover {
   background-color: white;
 }
 .info .main-info .p .post-content {
+  font-size: 19px;
   padding: 10px;
   width: 60%;
   float: right;
+}
+.info .main-info .p .post-content p {
+  margin-top: 25px;
 }
 /* sidebar */
 .info .sidbar {
