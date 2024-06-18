@@ -1,7 +1,5 @@
-window.onload = function () {
   var video = document.getElementById("intro-video");
   video.play();
-};
 function toggleAudio() {
   var audioElement = document.getElementById("audio-theme-track");
   var button_content = document.querySelector(
