@@ -343,6 +343,8 @@ header nav .links li a:hover {
   width: 40%;
   height: 100%;
   float: left;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 .info .main-info .p {
   width: 95%;
