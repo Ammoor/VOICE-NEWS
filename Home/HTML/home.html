@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VOICE NEWS is a news website that is responsible for show the trending news from all over the world and in many sections like politics, sports and even technology"
+    />
     <title>VOICE NEWS - Home</title>
     <link rel="stylesheet" href="../CSS/home-style.css" />
     <link rel="stylesheet" href="../CSS/normalize.css" />
@@ -39,6 +43,32 @@
       </nav>
     </header>
     <div class="body">
+      <!-- Start audio theme track -->
+      <div class="audio-theme-track-container">
+        <audio id="audio-theme-track" controls loop>
+          <source src="../Audio/BBC sound track 2022.mp3" type="audio/mpeg" />
+          Your browser doesn’t support audio element
+        </audio>
+      </div>
+      <!-- End audio theme track -->
+      <!-- Start audio-theme-button -->
+      <div class="audio-theme-button-container">
+        <div class="website-logo">
+          <a href="home.html"><span>VOICE</span> NEWS</a>
+        </div>
+        <button class="audio-theme-button" onclick="toggleAudio()">
+          Play sound track
+        </button>
+      </div>
+      <!-- End audio-theme-button -->
+      <!-- Start intro video of the website -->
+      <div class="intro-video-container">
+        <video id="intro-video" muted loop>
+          <source src="../Video/news-intro-2.mp4" type="video/mp4" />
+          Your browser doesn’t support video element
+        </video>
+      </div>
+      <!-- End intro video of the website -->
       <section class="main">
         <div class="Home-entry">
           <h2>Breaking <span>News</span></h2>
@@ -54,9 +84,8 @@
         <div class="container">
           <div class="card">
             <img
-              src="https://i.guim.co.uk/img/media/48758763fea355c30198f99fe3dfbdafab8eebdf/0_428_4971_2982/master/4971.jpg?width=620&dpr=2&s=none"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
+              src="../../Politics/Photos/2126721.jpg"
+              alt="Netanyahu and Biden"
             />
             <div class="card-content">
               <h1>Ukraine</h1>
@@ -70,8 +99,7 @@
           <div class="card">
             <img
               src="https://english.wafa.ps/image/NewsThumbImg/Default/62f36394-ecc8-42b6-9c72-173ac2d29999.jpg"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
+              alt=""
             />
             <div class="card-content">
               <h1>Gaza</h1>
@@ -84,8 +112,7 @@
           <div class="card">
             <img
               src="https://www.palestinechronicle.com/wp-content/uploads/2023/12/Numbers_Analysis_PC.png"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
+              alt=""
             />
             <div class="card-content">
               <h1>zenin</h1>
@@ -98,8 +125,7 @@
           <div class="card">
             <img
               src="https://i.guim.co.uk/img/media/b48dab224deef6930e0e9f309199e99698b63962/35_0_2498_1499/master/2498.jpg?width=620&dpr=2&s=none"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
+              alt=""
             />
             <div class="card-content">
               <h1>Champions League</h1>
@@ -112,8 +138,7 @@
           <div class="card">
             <img
               src="https://i.guim.co.uk/img/media/bfbc91d6c02359cda3a5b168d6f93b8b53fd4f90/0_350_5275_3165/master/5275.jpg?width=620&dpr=2&s=none"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
+              alt=""
             />
             <div class="card-content">
               <h1>Gaza</h1>
@@ -124,11 +149,7 @@
             </div>
           </div>
           <div class="card">
-            <img
-              src="../Photos/gaza.webp"
-              alt="gaxxa"
-              style="width: 100%; height: 200px"
-            />
+            <img src="../Photos/gaza.webp" alt="" />
             <div class="card-content">
               <h1>zenin</h1>
               <p>
@@ -266,6 +287,9 @@
           </div>
         </div>
       </div>
+      <!-- Start news ticker -->
+
+      <!-- End news ticker -->
       <!-- Start Footer -->
       <div class="footer">
         <div class="container">
@@ -342,5 +366,6 @@
       </div>
       <!-- End Footer -->
     </div>
+    <script src="../JS/main.js"></script>
   </body>
 </html>
