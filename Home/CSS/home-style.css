@@ -343,8 +343,6 @@ header nav .links li a:hover {
   width: 40%;
   height: 100%;
   float: left;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 .info .main-info .p {
   width: 95%;
@@ -354,6 +352,7 @@ header nav .links li a:hover {
   border: 1px solid black;
   background-color: white;
   transition: 0.4s;
+  overflow: hidden;
 }
 .info .main-info .p .post-content {
   font-size: 19px;
